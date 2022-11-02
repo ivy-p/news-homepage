@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL STYLES */
+
+html {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3rem;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: hsl(36, 100%, 99%);
+}
+
+/* Targeting h3 in the top-articles category */
+.number {
+    font-size: 3rem;
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 30px;
+    border: none;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    font-size: 1.125rem;
+    letter-spacing: 3px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* HERO ARTICLE */
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.hero-image {
+    height: 335px;
+    margin-bottom: 20px;
+}
+
+.hero-header {
+    margin-bottom: 20px;
+}
+
+.hero-details {
+    line-height: 1.5rem;
+    color: hsl(236, 13%, 42%);
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    margin-bottom: 50px;
+    align-self: flex-start;
+}
+
+/* NEW ARTICLES SECTION */
+.new-articles {
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 20px 40px 20px;
+    padding: 20px;
+}
+
+.new-header {
+    margin-bottom: 25px;
+}
+
+.new-articles h3 {
+    margin-bottom: 8px;
+}
+
+.new-article-details {
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 25px;
+}
+
+hr {
+    margin-bottom: 20px;
+    color:hsl(233, 8%, 79%);
+}
+
+/* TOP ARTICLES SECTION - 
+------------------------------------------------------
+NEED HELP WITH THIS SECTION 
+------------------------------------------------------*/
+.top-articles {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 150px);
+    padding: 0 20px;
+    gap: 20px;
+
+
+
+/* Footer */
+footer {
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
